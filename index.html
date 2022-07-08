@@ -78,6 +78,27 @@
                 line-height: 1.5;
             }
 
+            .signature-hr-line {
+                height: .15rem;
+                background: linear-gradient(to right, transparent,grey, black, grey, transparent);
+            }
+
+            .signature-address-container {
+                display: flex;
+                flex-direction: row;
+
+                color: darkslategray;
+                font-style: normal;
+                font-size: 1.2rem;
+                padding: .5rem 0;
+            }
+
+            .signature-address-street {
+                margin-right: 2rem;
+            }
+
+
+
         </style>
 
         <div class="signature-image-container">
@@ -91,16 +112,16 @@
                 <h2 class="signature-heading-h2">Web Developer & Designer</h2>
             </div>
             
-            <hr>
+            <hr class="signature-hr-line">
             
             <address class="signature-address-container">
-                <p>
+                <p class="signature-address-street">
                     25 Steve Tshwete Street, <br>
                     Modimolle, Limpopo, <br>
                     0510
                     
                 </p>
-                <p>
+                <p class="signature-address-mobile-and-web">
                     tel: +27 82 550 3872 <br>
                     email: schalk@schalkvandyk.com <br>
                     website: www.schalkvandyk.com
