@@ -8,15 +8,18 @@
     <meta name="supported-color-schemes" content="light dark">          
     <title>Schalk van Dyk Email Signature</title>
     <style type="text/css">
+        
         *,
         *::after,
         *::before {
             padding: 0;
-            Margin: 0;
+            margin: 0;
             box-sizing: inherit;
         }
 
         body {
+            /* For best practice, capitalize the “M” in Margin for proper 
+            rendering of Windows email clients such as Outlook. */
             Margin: 0;
             padding: 0;
             background-color: #f6f9fc;
@@ -24,13 +27,22 @@
         }
 
         table {
-            border-space: 0;
+            border: 0;
         }
+
         td {
             padding: 0;
         }
+
         img {
             border: 0;
+        }
+
+        .wrapper {
+            width:100%;
+            background-color:#f6f9fc;
+            table-layout:fixed;
+            padding-bottom:40px;
         }
         
         .signature-container {
@@ -139,6 +151,10 @@
     </style>
 </head>
 <body>
+
+    <center class="wrapper">
+    
+    </center>
     
     <div class="signature-container">
 
