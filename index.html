@@ -38,6 +38,22 @@
             border: 0;
         }
 
+        /* 
+        
+        We need to reinforce the background-color and width in 
+        case email clients don’t respect the body styling. We’ll do this with “width 100%” and 
+        “background-color: #f6f9fc;” by adding it to the <center class=”wrapper”> 
+        element. The center is a very old HTML tag for those of us familiar 
+        with the progression of the mark-up language but it still applies in 
+        HTML email.
+
+        Then, in addition to the width and background color, 
+        we’ll need to set up the table inside of the element with 
+        ”table-layout: fixed;” to make sure the table can’t span 
+        any wider than the wrapper.
+        
+        */
+        
         .wrapper {
             width:100%;
             background-color:#f6f9fc;
