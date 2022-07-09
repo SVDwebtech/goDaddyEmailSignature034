@@ -27,7 +27,7 @@
         }
 
         table {
-            border: 0;
+            border-spacing: 0;
         }
 
         td {
@@ -66,6 +66,23 @@
         .outer {
             max-width: 600px;
             background-color: #ffffff;
+        }
+
+        /* To center the HTML email we’ll need to add our first and 
+        main table inside of our “wrapper” center tag and “outer” div 
+        tag elements mentioned above when setting the width. To do 
+        this we’ll use a classic <table> tag which is still needed 
+        for proper email client rendering (no we can’t use divs) 
+        and we’ll give our table a class called “main” in addition 
+        to reinforcing the centering of the template with the 
+        align=”center” attribute as follows */
+        .main {
+            Margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            border-spacing: 0;
+            font-family: sans-serif;
+            color: #4a4a4a;
         }
         
         .signature-container {
@@ -190,6 +207,9 @@
             <div style="font-size: 0px; line-height: 1px; mso-line-height-rule: exactly; display: none; max-width: 0px; max-height:0px; opacity: 0; overflow:hidden; mso-hide: all;">
                 <!-- Add 85-100 Characters of Preheader Text Here -->
             </div>
+            <table class="main" align="center">
+            
+            </table>
         
         </div>
     </div>
