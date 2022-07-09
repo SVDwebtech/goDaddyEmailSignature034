@@ -54,7 +54,7 @@
             width:100%;
             background-color:#f6f9fc;
             table-layout:fixed;
-            padding-bottom:40px;
+            padding:20px 0 40px;
         }
 
         /* Lastly, for the width and centering to set up our table, 
@@ -85,101 +85,6 @@
             color: #4a4a4a;
         }
         
-        .signature-container {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: flex-start;
-
-            font-size: 62.5%;
-            box-sizing: border-box;
-
-            padding: 2rem;
-        }
-        
-        .signature-image-container {
-            width: 22%;
-            padding: 2rem;
-        }
-
-        .signature-image {
-            display: block;
-            width: 100%;
-            height: auto;
-
-            border: .5px solid lightgrey;
-            border-radius: 50%;
-            box-shadow: 12px 12px 25px rgb(0, 0, 0, .4);
-        }
-
-        .signature-content-container {
-            width: 65%;
-            padding: 2rem 1rem;
-        }
-
-        .signature-heading-container {
-            display: flex;
-            flex-direction: row;
-            align-items: baseline;
-        }
-
-        .signature-heading-h1 {
-            color: rgb(22, 72, 164);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: .5rem;
-            font-weight: 900;
-            letter-spacing: 2px;
-            line-height: 1.6;
-
-            margin-right: 2rem;
-        }
-        
-        .signature-heading-h2 {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-style: italic;
-            font-size: 1.4rem;
-            font-weight: 700;
-            letter-spacing: 1px;
-            line-height: 1.5;
-        }
-
-        .signature-hr-line {
-            height: .15rem;
-            background: linear-gradient(to right, transparent,grey, black, grey, transparent);
-        }
-
-        .signature-address-container {
-            display: flex;
-            flex-direction: row;
-
-            color: darkslategray;
-            font-style: normal;
-            font-size: 1.2rem;
-            padding: .5rem 0;
-        }
-
-        .signature-address-street {
-            margin-right: 2rem;
-        }
-
-        .signature-social-media-container {
-            display: flex;
-            flex-direction: row;
-
-            width: 100%;
-            padding: .5rem 0;
-        }
-
-        .signature-social-media {
-
-            width: 7%;
-            height: auto;
-            margin-right: 2rem;
-
-            border-radius: 50%;
-            box-shadow: 12px 12px 25px rgb(0, 0, 0, .4); 
-        }
-
         @media only screen and (max-width: 600px) {
         
         }
@@ -211,10 +116,10 @@
             <table class="main" align="center">
                 <tr>
                     <td>
-                        <table>
+                        <table style="Margin-left: auto;">
                             <tr>
-                                <td style="padding: 10px; text-align: center;">
-                                    <img style="border: .5px solid lightgrey; border-radius: 50%; box-shadow: 12px 12px 25px rgb(0, 0, 0, .4);" src="./img/profilephoto5.jpg" width="100" alt="profile photo of web developer and designer">
+                                <td style="padding: 20px; text-align: center;">
+                                    <img style="border: .5px solid lightgrey; border-radius: 50%; box-shadow: 12px 12px 25px rgb(0, 0, 0, .4);" src="./img/profilephoto5.jpg" width="140" alt="profile photo of web developer and designer">
                                 </td>
                             </tr>
                         </table>
@@ -222,27 +127,27 @@
                     <td>
                         <table>
                             <tr>
-                                <td style="padding: 10px; text-align: center;">
-                                    <h1 class="heading-h1">Schalk van Dyk</h1>
+                                <td style="padding: 0px; text-align: center;">
+                                    <h1 style="color:rgb(23, 73, 208); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 25px; font-weight: 900; line-height: 1.4; letter-spacing: 1px;" class="heading-h1">Schalk van Dyk</h1>
                                 </td>
                             </tr>
                             <tr>
-                                <td style="padding: 10px; text-align: center;">
-                                    <h2 class="heading-h2">Web Developer & Designer</h2>
+                                <td style="padding: 0px; text-align: center;">
+                                    <h2 style="color:rgb(28, 28, 28); font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 700; line-height: 1.2; letter-spacing: 3px;" class="heading-h2">Web Developer & Designer</h2>
                                 </td>
                             </tr>
                             <tr>
-                                <td style="padding: 10px; text-align: center;">
-                                    <hr class="hr-line">
+                                <td style="padding: 10px 5px; text-align: center;">
+                                    <hr style="height: 2.5px; background-color: #313030;" class="hr-line">
                                 </td>
                             </tr>
                             <tr>
                                 <td>
                                     <table>
                                         <tr>
-                                            <td style="padding: 10px; text-align: center;">
+                                            <td style="padding: 0px 5px; text-align: left; min-width: 150px;">
                                                 <address class="address-container">
-                                                    <p class="address-street">
+                                                    <p style="color:rgb(70, 70, 70); font-size: 12px; font-weight: 400; line-height: 1.3; letter-spacing: 0px;" class="address-street">
                                                         25 Steve Tshwete Street, <br>
                                                         Modimolle, Limpopo, <br>
                                                         0510
@@ -250,9 +155,9 @@
                                                     </p>
                                                 </address>
                                             </td>
-                                            <td style="padding: 10px; text-align: center;">
+                                            <td style="padding: 0px 5px; text-align: left; min-width: 200px;">
                                                 <address class="address-container">
-                                                    <p class="address-mobile-and-web">
+                                                    <p style="color:rgb(70, 70, 70); font-size: 12px; font-weight: 400; line-height: 1.3; letter-spacing: 0px;" class="address-mobile-and-web">
                                                         tel: +27 82 550 3872 <br>
                                                         email: schalk@schalkvandyk.com <br>
                                                         website: www.schalkvandyk.com
@@ -261,13 +166,10 @@
                                             </td>
                                         </tr>
                                     </table>
-                                    
-                                
                                 </td>
-                                
                             </tr>
                             <tr>
-                                <td style="padding: 1rem; background-color: #dfdfdf; text-align: center;">
+                                <td style="padding: 10px 5px; text-align: center;">
                                     <a style="margin-right: 2rem;" href="#"><img style="border-radius: 50%; box-shadow: 3px 3px 10px rgb(0, 0, 0, .4);" src="./img/linkedin@512px.png" width="30" alt="social media icon for linkedin"></a>
                                     <a style="margin-right: 2rem;" href="#"><img style="border-radius: 50%; box-shadow: 3px 3px 10px rgb(0, 0, 0, .4);" src="./img/github@512px.png" width="30" alt="social media icon for github"></a>
                                     <a style="margin-right: 2rem;" href="#"><img style="border-radius: 50%; box-shadow: 3px 3px 10px rgb(0, 0, 0, .4);" src="./img/twitter@512px.png" width="30" alt="social media icon for twitter"></a>
@@ -278,50 +180,7 @@
                     </td>
                 </tr>
             </table>
-        
         </div>
-    </div>
-    
-    <div class="signature-container">
-
-    
-
-        <div class="signature-image-container">
-            <img src="./img/profilephoto5.jpg" alt="" class="signature-image">
-        </div>
-
-        <div class="signature-content-container">
-        
-            <div class="signature-heading-container">
-                <h1 class="signature-heading-h1">Schalk van Dyk</h1>
-                <h2 class="signature-heading-h2">Web Developer & Designer</h2>
-            </div>
-            
-            <hr class="signature-hr-line">
-            
-            <address class="signature-address-container">
-                <p class="signature-address-street">
-                    25 Steve Tshwete Street, <br>
-                    Modimolle, Limpopo, <br>
-                    0510
-                    
-                </p>
-                <p class="signature-address-mobile-and-web">
-                    tel: +27 82 550 3872 <br>
-                    email: schalk@schalkvandyk.com <br>
-                    website: www.schalkvandyk.com
-                </p>
-            </address>
-
-            <div class="signature-social-media-container">
-                <img class="signature-social-media" src="./img/linkedin@512px.png" alt="linkedin icon image for link to linkedin profile">
-                <img class="signature-social-media" src="./img/github@512px.png" alt="github icon image for link to github profile">
-                <img class="signature-social-media" src="./img/twitter@512px.png" alt="twitter icon image for link to twitter profile">
-                <img class="signature-social-media" src="./img/facebook@512px.png" alt="facebook icon image for link to facebook profile">
-            </div>
-
-        </div>
-    
     </div>
 
 </body>
