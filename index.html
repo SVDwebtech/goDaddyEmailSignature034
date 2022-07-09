@@ -38,9 +38,7 @@
             border: 0;
         }
 
-        /* 
-        
-        We need to reinforce the background-color and width in 
+        /* We need to reinforce the background-color and width in 
         case email clients don’t respect the body styling. We’ll do this with “width 100%” and 
         “background-color: #f6f9fc;” by adding it to the <center class=”wrapper”> 
         element. The center is a very old HTML tag for those of us familiar 
@@ -50,15 +48,24 @@
         Then, in addition to the width and background color, 
         we’ll need to set up the table inside of the element with 
         ”table-layout: fixed;” to make sure the table can’t span 
-        any wider than the wrapper.
-        
-        */
-        
+        any wider than the wrapper.*/
+
         .wrapper {
             width:100%;
             background-color:#f6f9fc;
             table-layout:fixed;
             padding-bottom:40px;
+        }
+
+        /* Lastly, for the width and centering to set up our table, 
+        it’s best to reinforce the maximum width of the main table 
+        we’ll be adding and the background color of the template by 
+        using a simple <div> element (the only div in the design). 
+        I’ll name is “outer” as a reminder that is just outside of 
+        the template table as a parent element */
+        .outer {
+            max-width: 600px;
+            background-color: #ffffff;
         }
         
         .signature-container {
@@ -168,9 +175,24 @@
 </head>
 <body>
 
-    <center class="wrapper">
-    
-    </center>
+    <div class="wrapper">
+        <div class="outer">
+            <!-- HTML email preheader text is the preview text of the email 
+            message that is seen underneath or next to the title of the email 
+            subject when it’s received in the inbox. 
+            This will show our email preview text in all email clients, 
+            including preview text for Outlook.
+
+            For best practice, keep the length of the preheader/preview text 
+            between 40 characters and 130 characters with the sweet spot around 
+            85-100 characters.
+            -->
+            <div style="font-size: 0px; line-height: 1px; mso-line-height-rule: exactly; display: none; max-width: 0px; max-height:0px; opacity: 0; overflow:hidden; mso-hide: all;">
+                <!-- Add 85-100 Characters of Preheader Text Here -->
+            </div>
+        
+        </div>
+    </div>
     
     <div class="signature-container">
 
