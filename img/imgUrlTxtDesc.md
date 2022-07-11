@@ -1,14 +1,5 @@
-1. ## facebook
-   src="https://i.ibb.co/SmxmH48/facebook-512px.webp"
-
-2. ## linkedin
-   src="https://i.ibb.co/2ZScmC3/linkedin-512px.webp"
-
-3. ## twitter
-   src="https://i.ibb.co/98fZ5Kk/twitter-512px.webp"
-
-4. ## github
-   src="https://i.ibb.co/Kq4QycG/github-512px.webp"
-
-5. ## profilephoto
-   src="https://i.ibb.co/VTgjjch/profilephoto5.webp"
+<img src="https://i.ibb.co/tJJWgtV/Profile-Picture.png" alt="Profile-Picture" border="0">
+<img src="https://i.ibb.co/CB3R6HB/Twitter.png" alt="Twitter" border="0">
+<img src="https://i.ibb.co/jGf2jJ2/LinkedIn.png" alt="LinkedIn" border="0">
+<img src="https://i.ibb.co/xhDzHht/GitHub.png" alt="GitHub" border="0">
+<img src="https://i.ibb.co/87wMCPZ/FaceBook.png" alt="FaceBook" border="0">
