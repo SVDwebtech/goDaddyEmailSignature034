@@ -1,16 +1,14 @@
 1. ## facebook
-   https://ibb.co/5j9jCgy
+   src="https://i.ibb.co/SmxmH48/facebook-512px.webp"
 
 2. ## linkedin
-   https://ibb.co/fD9rByd
+   src="https://i.ibb.co/2ZScmC3/linkedin-512px.webp"
 
 3. ## twitter
-   https://ibb.co/M2jB0wx
+   src="https://i.ibb.co/98fZ5Kk/twitter-512px.webp"
 
 4. ## github
-   https://ibb.co/DCc6KPb
+   src="https://i.ibb.co/Kq4QycG/github-512px.webp"
 
 5. ## profilephoto
-   https://ibb.co/Pgcmmvb
-   
-   
+   src="https://i.ibb.co/VTgjjch/profilephoto5.webp"
